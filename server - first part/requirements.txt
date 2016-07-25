@@ -1,0 +1,3 @@
+pysistence
+requests
+flask

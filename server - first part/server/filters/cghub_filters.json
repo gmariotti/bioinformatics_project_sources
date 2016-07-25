@@ -1,0 +1,138 @@
+{
+  "analysis-details": [
+    true,
+    false
+  ],
+  "specific-metadata-fields": {
+    "analysis_id": "__UUID",
+    "state": [
+      "submitted",
+      "uploading",
+      "validating_data",
+      "augmenting_data",
+      "bad_data",
+      "validating_sample",
+      "suppressed",
+      "redacted",
+      "live"
+    ],
+    "study": [
+      {
+        "secured-data-sets": [
+          {
+            "phs000178": "The Cancer Genome Atlas (TCGA)"
+          },
+          {
+            "PAWG": "Pan-Cancer Analysis of Whole Genomes"
+          },
+          {
+            "phs000218": "Therapeutically Applicable Research to Generate Effective Treatments",
+            "phs000463": "Acute Lymphoblastic Leukemia (ALL) Pilot Phase 1",
+            "phs000464": "Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2",
+            "phs000465": "Acute Myeloid Leukemia [AML]",
+            "phs000466": "Kidney, Clear Cell Sarcoma of the Kidney [CCSK]",
+            "phs000467": "Neuroblastoma [NBL]",
+            "phs000468": "Osteosarcoma [OS]",
+            "phs000469": "Model Systems (MDLS): Cell Lines and Xenografts [including PPTP]",
+            "phs000470": "Kidney, Rhabdoid Tumor [RT]",
+            "phs000471": "Kidney, Wilms Tumor [WT]"
+          },
+          {
+            "phs000235": "Cancer Genome Characterization Initiative (CGCI)"
+          }
+        ]
+      },
+      {
+        "public-data-sets": [
+          {
+            "*multi*": "Cancer Cell Line Encyclopedia (CCLE) Homo sapiens Other_Sequencing_Multiisolate"
+          },
+          {
+            "TCGA_MUT_BENCHMARK_4": "Benchmark 4 Data"
+          }
+        ]
+      }
+    ],
+    "last_modified": "__date"
+  },
+  "aliquot-and-sample-metadata-fields": {
+    "aliquot_id": "__uniqueID",
+    "disease_abbr": [
+      "TODO -> http://tcga-data.nci.nih.gov/datareports/codeTablesReport.htm"
+    ],
+    "participant_id": "__ID of the human participant providing the sample",
+    "sample_id": "__ID of the root sample from which the aliquot was derived",
+    "analyte_code": [
+      "TODO -> http://tcga-data.nci.nih.gov/datareports/codeTablesReport.htm"
+    ],
+    "sample_type": [
+      "TODO -> http://tcga-data.nci.nih.gov/datareports/codeTablesReport.htm"
+    ],
+    "tss_id": [
+      "TODO -> http://tcga-data.nci.nih.gov/datareports/codeTablesReport.htm"
+    ],
+    "sample_accession": "Legacy sample accession # for data migrated from SRA",
+    "analysis_accession": "SRZ###### with each # as single digit"
+  },
+  "additional-metadata-fields": {
+    "center-name": [
+      {
+        "BCCAGSC": "BC Cancer Agency Michael Smith Genome Sciences Center"
+      },
+      {
+        "BCM": "Baylor College of Medicine"
+      },
+      {
+        "BI": "Broad Institute"
+      },
+      {
+        "CompletedGenomics": "Complete Genomics Incorporated"
+      },
+      {
+        "HMS-RK": "Harvard Medical School - Raju Kucherlapati Lab"
+      },
+      {
+        "UCSC": "University of California Santa Cruz"
+      },
+      {
+        "UNC-LCCC": "University of North Carolina at Chapel Hill – Lineberger Comprehensive Cancer Center"
+      },
+      {
+        "USC-JHU": "University of Southern California - Peter Laird’s group"
+      },
+      {
+        "WUGSC": "Washington University, Genome Sequencing Center"
+      }
+    ],
+    "refassem_short_name": [
+      "GRCh37",
+      "GRCh37_BI_Variant",
+      "GRCh37-lite",
+      "GRCh37-lite-+-HPV_Redux-build",
+      "HG18",
+      "HG18_Broad_variant",
+      "HG19",
+      "HG19_Broad_variant",
+      "NCBI36_BCCAGSC_variant",
+      "NCBI36_BCM_variant",
+      "NCBI36_WUGSC_variant",
+      "NCBIData file extensionsuild36",
+      "unaligned"
+    ],
+    "filename": "Name of a data file associated with an analysis_id",
+    "filetype": [
+      "bam",
+      "fasta"
+    ],
+    "filesize": "Used to search for data files within a size range in bytes",
+    "analysis_type": "TODO -> SRA 1.5 schema",
+    "library_strategy": "TODO -> SRA 1.5 schema",
+    "platform": "TODO -> SRA 1.5 schema",
+    "alias": "Name of the analysis object as defined by the submitting center",
+    "title": "Title of the analysis as defined by the submitting center"
+  },
+  "paging": [
+    "start",
+    "rows"
+  ]
+}

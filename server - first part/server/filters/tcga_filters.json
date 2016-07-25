@@ -1,0 +1,63 @@
+{
+  "non-clinical": {
+    "optional": {
+      "user-def": [
+        "email",
+        "sampleList",
+        "batch",
+        "sampleList",
+        "platformType"
+      ],
+      "server-def": {
+        "availability": [
+          "A",
+          "P",
+          "N"
+        ],
+        "consolidateFiles": [
+          "true",
+          "false"
+        ],
+        "flattenDir": [
+          "true",
+          "false"
+        ],
+        "startDate": "mm/dd/yy",
+        "endDate": "mm/dd/yy",
+        "tumorNormal": [
+          "T",
+          "TN",
+          "NT",
+          "N"
+        ],
+        "noMeta": [
+          "true",
+          "false"
+        ],
+        "protectedStatus": [
+          "P",
+          "N",
+          "NP"
+        ],
+        "preservationMethodCode": [
+          "Froze",
+          "FFPE",
+          "All"
+        ],
+        "useCompression": [
+          "true",
+          "false"
+        ]
+      }
+    },
+    "mandatory": {
+      "user-def": [
+        "center",
+        "disease",
+        "platform"
+      ]
+    }
+  },
+  "clinical": [
+  ]
+}
